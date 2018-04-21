@@ -1,0 +1,86 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card>
+        <img src="assets/imgs/Homepage1.jpg"/>
+        <ion-card-content>
+            <ion-card-title>
+                {{currentAuthor}}
+            </ion-card-title>
+            <p>
+                {{currentQuote}}
+            </p>
+        </ion-card-content>
+    </ion-card>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-3>
+                <ion-card>
+                    <img src="http://komalbandi.com/wp-content/uploads/2016/05/website.png"/>
+                    <div class="card-title">Komal Bandi</div>
+                </ion-card>
+            </ion-col>
+            <ion-col col-12 col-sm-8 col-md-8 col-lg-8 col-xl-9>
+                <ion-card>
+                    <ion-card-header>
+                        <h1>How I can help you</h1>
+                    </ion-card-header>
+
+                    <ion-card-content>
+                        <!-- Add card content here! -->
+                        <ul>
+                            <li><p>I can build APPS</p></li>
+                            <li><p>I can build Website</p></li>
+                        </ul>
+                    </ion-card-content>
+
+                </ion-card>
+                <br>
+                <ion-card>
+                    <ion-card-header>
+                        <h1>Why choose my services</h1>
+                    </ion-card-header>
+
+                    <ion-card-content>
+                        <!-- Add card content here! -->
+                        <ul>
+                            <li><p>I build to solve business problems; I have worked with micro, medium and large scale
+                                businesses and solved their problems.</p></li>
+                            <li><p>I can take care of design, development, testing, and scaling, while you can worry
+                                about selling, hustling and customer support.</p></li>
+                            <li><p>I provide fixed price services.</p></li>
+                            <li><p>Modern software design principles used (easy for new programmers to understand and
+                                modify).</p></li>
+                        </ul>
+                    </ion-card-content>
+
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-card>
+        <ion-card-header>
+            Some of my clients
+        </ion-card-header>
+    </ion-card>
+
+    <ion-slides pager>
+
+        <ion-slide style='background-image:url("assets/imgs/sitesee_website.png");background-repeat: no-repeat;background-position: center;'>
+        </ion-slide>
+
+        <ion-slide style='background-image:url("assets/imgs/comscentre-website.png");background-repeat: no-repeat;background-position: center;'>
+        </ion-slide>
+
+        <ion-slide style='background-image:url("assets/imgs/medtek.png");background-repeat: no-repeat;background-position: center;'>
+        </ion-slide>
+
+    </ion-slides>
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "komalbandi",
+  "app_id": "78c8156f",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
